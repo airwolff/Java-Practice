@@ -1,0 +1,6 @@
+var answer = prompt("Art vs sports?");
+if (answer.toUpperCase() === "ART") {
+  document.write("<p>That's right!</p>");
+} else {
+  document.write("<p>WRONG!!</p>");
+}
