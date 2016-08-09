@@ -1,0 +1,9 @@
+function getRandomNumber( upper ) {
+  var randomNumber = Math.floor( Math.random() * upper ) + 1; 
+  return randomNumber;
+}
+console.log( getRandomNumber (20) );
+console.log( getRandomNumber (3000) );
+console.log( getRandomNumber (1465) );
+console.log( getRandomNumber (4321) );
+console.log( getRandomNumber (45677) );
